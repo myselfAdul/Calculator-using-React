@@ -1,0 +1,120 @@
+
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: rgb(218, 169, 104);
+}
+
+.App{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.calculator{
+  width: 100%;
+  max-height: 1000px;
+  max-width: 330px;
+  background-color: rgb(77, 72, 74);
+  border-radius: 16px;
+  overflow: hidden;
+  
+}
+
+.display{
+  padding: 16px;
+  text-align: right;
+  background-color: rgb(66, 69, 72);
+  font-size: 40px;
+  color: antiquewhite;
+
+}
+
+button{
+  
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.1s;
+  
+}
+
+.operators{
+  display: flex;
+}
+
+.operators button{
+  flex: 1 1;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: rgb(229, 116, 17);
+  color: black;
+  margin: 0.5px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+ 
+}
+
+
+.digits button{
+  width: 110px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+.del-equal{
+  display: flex;
+}
+
+.del-equal button{
+  flex: 1 1 0%;
+  font-weight: 700;
+}
+
+
+.operators button:hover{
+  opacity: 0.4;
+}
+
+.digits button:hover{
+  opacity: 0.6;
+}
+
+.panel{
+  color: rgb(156, 156, 155);
+  background-color: black;
+  text-align: right;
+  padding-right: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 
+.operators{
+  display: flex;
+}
+
+.operators button{
+  flex: 1 1 0%;
+  color: red;
+  
+
+}
+
+.digits{
+  display: flex;
+}
+
+.digits button{
+
+  color: blue;
+  
+}
+ */
